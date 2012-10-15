@@ -1,0 +1,4 @@
+/enyo/
+/lib/
+/node_modules/
+*.log

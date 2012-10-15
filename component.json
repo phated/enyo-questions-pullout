@@ -1,0 +1,10 @@
+{
+  "name": "questions-toolbar",
+  "version": "0.1.0",
+  "dependencies": {
+    "onyx": "*",
+    "layout": "*",
+    "socket": "*",
+    "pullout-toolbar": "*"
+  }
+}

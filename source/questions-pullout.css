@@ -1,0 +1,15 @@
+.questions-pullout.right .pulltab {
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  -webkit-box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
+  box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
+}
+
+.questions-pullout .enyo-fittable-rows-layout > label.enyo-tool-decorator {
+  margin: 20px 0 0;
+  padding: 10px 6px;
+}
+
+.questions-pullout .enyo-fittable-rows-layout > button.enyo-tool-decorator {
+  margin-top: 20px;
+}
