@@ -1,5 +1,5 @@
 {
-  "name": "questions-toolbar",
+  "name": "questions-pullout",
   "version": "0.1.0",
   "dependencies": {
     "onyx": "*",
