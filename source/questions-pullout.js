@@ -55,7 +55,7 @@ enyo.kind({
       address: window.location.protocol + '//' + window.location.hostname + ':2233',
       init: {
         on: {
-          updateQuestions: this.questionReceived
+          updateQuestions: enyo.bind(this, 'doQuestionReceived')
         }
       }
     });
@@ -81,9 +81,8 @@ enyo.kind({
     }
   },
 
-  questionReceived: function(question){
-    console.warn('Override the questionReceived function to do something with the returned question');
-    console.log(question);
+  events: {
+    onQuestionReceived: ""
   }
 
 });
